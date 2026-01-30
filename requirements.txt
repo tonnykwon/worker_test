@@ -1,0 +1,5 @@
+mediapipe==0.10.14
+numpy==1.26.4
+PyOpenGL==3.1.7
+PyOpenGL-accelerate==3.1.7
+runpod==1.7.1
