@@ -100,4 +100,3 @@ def run_all(model_path: str) -> dict[str, Any]:
         "probe_env": probe_env(),
         "probe_mediapipe": probe_mediapipe(model_path),
     }
-    }
