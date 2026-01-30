@@ -13,11 +13,12 @@ GitHub Integration으로 `worker_test`를 그대로 올려 **GPU/EGL/MediaPipe d
 
 ## GitHub Integration 설정
 
-RunPod 콘솔에서:
+RunPod 콘솔에서 (worker_test 단독 repo 기준):
 
-- Repository: `backend` 포함된 현재 repo
-- Dockerfile Path: `worker_test/Dockerfile.runpod`
-- Context: repo root
+- Repository: `worker_test` repo
+- Branch: `main`
+- Dockerfile Path: `Dockerfile.runpod`
+- Context: `.` (repo root)
 - Start Command: 기본 CMD 사용
 
 ## 환경변수
